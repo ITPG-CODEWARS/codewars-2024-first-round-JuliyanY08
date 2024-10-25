@@ -1,0 +1,81 @@
+body {
+  background-image: url('/snimki/background/svetlozelen.png');
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*CQLOTO NAV NA VSEKI CSS*/
+.nav {
+  overflow: hidden;
+  background-color: #6274a8;
+}
+
+.nav a.gore {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 27 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a.gore:hover {
+  background-color: #4f639e;
+ 
+}
+
+.nav a.logo {
+
+  float: left;
+  padding: 0 0px;
+}
+.zoom {
+
+  width: 400;
+ 
+  transition: transform 1s; 
+
+
+}
+
+.zoom:hover {
+  transform: scale(0.7); 
+}
+.info{
+  width: 400;
+  height: 300;
+  border: #384468;
+  border: 50px;
+  transition: transform 1s;
+}
+.info:hover{
+  transform: translate(00px,-122px);
+
+}
+.button {
+  font-size: 14px;
+  border-radius: 9px;
+border-width: 0;
+  padding: 18px 30px;
+  transition: all;
+  width: 170px;
+  background:#6aa39f;
+  position:absolute;
+  left: 800px;
+  top: 860px;
+ 
+  color:  #cfedea;
+  text-align: center;
+}
+a:link,a:visited{ 
+text-decoration: none;
+}
+.button:hover{
+
+width: 170px;
+background: #8eccc6;
+color:  #6aa39f;
+
+}
+
+
+
