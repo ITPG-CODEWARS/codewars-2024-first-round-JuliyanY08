@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-  /* Стилове за контактната страница */
+
 .contact-container {
   max-width: 800px;
   margin: 50px auto;
@@ -71,7 +71,7 @@ body {
 .contact-submit:hover {
   background-color: #4f639e;
 }
-  /*CQLOTO NAV NA VSEKI CSS*/
+
   .nav {
     overflow: hidden;
     background-color: #6274a8;
