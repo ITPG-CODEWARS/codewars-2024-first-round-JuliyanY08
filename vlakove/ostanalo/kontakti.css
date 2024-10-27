@@ -1,0 +1,98 @@
+body {
+    background-image: url('/snimki/background/svetlozelen.png');
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* Стилове за контактната страница */
+.contact-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 36px;
+  color: #6274a8;
+}
+
+.contact-description {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 16px;
+  color: #6274a8;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-submit {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #6274a8;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-submit:hover {
+  background-color: #4f639e;
+}
+  /*CQLOTO NAV NA VSEKI CSS*/
+  .nav {
+    overflow: hidden;
+    background-color: #6274a8;
+  }
+  
+  .nav a.gore {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 27 30px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .nav a.gore:hover {
+    background-color: #4f639e;
+   
+  }
+  
+  .nav a.logo {
+  
+    float: left;
+    padding: 0 0px;
+  }

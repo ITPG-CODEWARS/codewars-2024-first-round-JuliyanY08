@@ -1,0 +1,128 @@
+
+body {
+  background-image: url('/snimki/background/svetlozelen.png');
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*CQLOTO NAV NA VSEKI CSS*/
+.nav {
+  overflow: hidden;
+  background-color: #6274a8;
+}
+
+.nav a.gore {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 27 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a.gore:hover {
+  background-color: #4f639e;
+ 
+}
+
+.nav a.logo {
+
+  float: left;
+  padding: 0 0px;
+}
+.discussion-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f4f7;
+  border-radius: 8px;
+}
+
+.discussion-title {
+  text-align: center;
+  font-size: 32px;
+  color: #6274a8;
+  margin-bottom: 20px;
+}
+
+.discussion-section {
+  margin-bottom: 30px;
+}
+
+.discussion-section h2 {
+  font-size: 24px;
+  color: #4f639e;
+  border-bottom: 2px solid #6274a8;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.discussion-message {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.discussion-message p {
+  margin: 5px 0;
+}
+
+.discussion-message strong {
+  color: #6274a8;
+}
+
+
+.response-message {
+  background-color: #e9f3e9;
+  padding: 12px;
+  border-radius: 5px;
+  border-left: 4px solid #4f639e;
+  margin-top: 10px;
+}
+
+.response-message strong {
+  color: #4f639e;
+}
+
+.comment-form {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.comment-form h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.comment-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.comment-form input[type="text"],
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.comment-form button {
+  background-color: #4f639e;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color:#7c8ec5;
+}

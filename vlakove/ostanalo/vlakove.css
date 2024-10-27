@@ -79,3 +79,14 @@ body {
     width:400px;
    
   }
+  @media only screen and (max-width: 600px) {
+
+ .jultvlak {
+
+      border: 10px solid black;
+    }
+    .jultparagraph{
+      position: relative;
+      top: 500px;
+    }
+  }
